@@ -28,7 +28,7 @@ void initializeService() {
 
 int main(int argc, const char **argv)
 {
-	if ( argc <= 1) {
+	if (argc <= 1) {
 		return displayUsage(argv[0]);
 	}
 	int32_t st;

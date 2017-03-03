@@ -15,6 +15,3 @@ using UniquePtr = std::unique_ptr<T>;
 END_PROFILE_NAMESPACE
 
 #endif /* PROFILE_SMART_POINTER_H */
-
-
-

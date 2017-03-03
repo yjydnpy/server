@@ -10,7 +10,8 @@ BEGIN_PROFILE_NAMESPACE
 
 typedef std::thread Thread;
 typedef std::mutex Mutex;
-typedef std::shared_mutex SharedMutex;
+typedef std::recursive_mutex RecursiveMutex;
+//typedef std::shared_mutex SharedMutex;
 typedef std::condition_variable ConditionVariable;
 typedef std::condition_variable_any ConditionVariableAny;
 
